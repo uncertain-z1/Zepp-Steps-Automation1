@@ -15,7 +15,7 @@ jobs:
       - name: '设置 Python 环境'
         uses: actions/setup-python@v6
         with:
-          python-version: '3.12.0'
+          python-version: '3.12'
       - name: '安装依赖项'
         run: pip install requests==2.26.0
       - name: '运行主程序'
