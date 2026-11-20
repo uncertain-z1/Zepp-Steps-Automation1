@@ -4,7 +4,7 @@ name: 自动任务-修改Zepp当天运动数据
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4 * * *'
+    - cron: '33 8 * * *'
 
 jobs:
   run-python-script:
