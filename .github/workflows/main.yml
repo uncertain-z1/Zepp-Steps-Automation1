@@ -4,8 +4,8 @@ name: 自动任务-修改Zepp当天运动数据
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
-
+    - cron: '17 12 * * *'
+      timezone: 'Asia/Shanghai'
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
